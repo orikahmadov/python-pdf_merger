@@ -1,0 +1,6 @@
+altgraph==0.17.3
+future==0.18.2
+pefile==2022.5.30
+PyPDF2==2.12.1
+PySimpleGUI==4.60.4
+pywin32-ctypes==0.2.0
