@@ -7,3 +7,9 @@ def main():
 		print("Hello World")
 	except:
 		print("Whatever")
+
+
+def send_req(req):
+	if req:
+			return req
+			
