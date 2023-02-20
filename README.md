@@ -9,15 +9,15 @@ pip install -r requirements.txt
 Usage
 To merge two or more PDF files, run:
 
-Copy code
+
 python merge_pdfs.py -f pdf1 pdf2 ...
 This will generate a random hash as the output file name. To specify a custom output file name, use the -o or --output option:
 
-Copy code
+
 python merge_pdfs.py -f pdf1 pdf2 ... -o output.pdf
 You can also specify a path to the PDF files using the -p or --path option:
 
-Copy code
+
 python merge_pdfs.py -f pdf1 pdf2 ... -o output.pdf -p path/to/pdfs
 Arguments
 The merge_pdfs.py script accepts the following arguments:
