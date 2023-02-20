@@ -30,7 +30,7 @@ def create_window():
 def layout_gui():
     """This function defines the layout of the GUI program"""
     layout = [
-        [sg.Text('Merge PDF Files', font=('Helvetica', 25))],
+        [sg.Text('Merge PDF Files', font=('Helvetica', 24))],
         [sg.Text('Select PDF Files to Merge', font=('Helvetica', 15))],
         [sg.InputText(key='-IN-'), sg.FilesBrowse('Select PDF Files', file_types=(('PDF Files', '*.pdf'),))],
         [sg.Text('Name your export folder', font=('Helvetica', 15))], # Export file name label
